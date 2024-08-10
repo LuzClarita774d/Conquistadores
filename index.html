@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stayle.css">
+    <title>Eilam Conquistadores</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdHE12cGaOKKLmYFAyg5aFx-EAVrXXxLRDQ&s " alt="coq">Pathfinders Club</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="especialidades.html">Especialidades</a></li>
+                <li><a href="noticias.html">Eventos</a></li>
+                <li><a href="">Fechas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <div class="container">
+        <div class="welcome-title">
+          <h1>¡Bienvenidos, conquistadores y consejeros del Club EILAM!</h1>
+        </div>
+        <div class="content">
+          <img src="https://colegiomartabrunet.cl/wp-content/uploads/2023/06/Desbravadora-com-a-mao-apresentando.png" alt="Imagen de bienvenida">
+          <p>Esta página es mucho más que un simple espacio informativo; es un rincón especial donde cada evento, cada noticia y cada logro de nuestro querido club toma vida. Aquí, celebramos juntos cada paso, compartimos nuestras experiencias y nos preparamos para nuevas aventuras que nos llevarán más lejos. Juntos, como una gran familia, nos apoyamos y crecemos. Que esta página sea un reflejo del espíritu valiente y comprometido que nos une. ¡Sigamos conquistando nuevos horizontes, siempre con fe y determinación! ¡Bienvenidos a su hogar digital en el Club Eilam!</p>
+        </div>
+      </div>
+      
+      <div class="title">
+        <h2>Ideales:</h2>
+      </div>
+
+      <div class="container">
+        <div class="ideales">
+            <h2>Legión de Honor</h2>
+            <div class="votos-img">
+                <img src="img/1.jpg" alt="Legión de Honor">
+            </div>
+        </div>
+        <div class="ideales">
+            <h2>Voto de Conquistadores</h2>
+            <div class="votos-img">
+                <img src="img/2.jpg" alt="Voto de Conquistadores">
+            </div>
+        </div>
+        <div class="ideales">
+            <h2>Ley de Conquistadores</h2>
+            <div class="votos-img">
+                <img src="img/3.jpg" alt="Ley de Conquistadores">
+            </div>
+        </div>
+        <div class="ideales">
+            <h2>Blanco</h2>
+            <div class="votos-img">
+                <img src="img/4.jpg" alt="Blanco">
+            </div>
+        </div>
+        <div class="ideales">
+            <h2>Lema</h2>
+            <div class="votos-img">
+                <img src="img/5.jpg" alt="Blanco">
+            </div>
+        </div>
+        <div class="ideales">
+             <h2>Voto de JA/GM</h2>
+             <div class="votos-img">
+                <img src="img/6.jpg" alt="Blanco">
+            </div>
+         </div>
+        <div class="ideales">
+             <h2>Voto a la bandera Cristiana</h2>
+            <div class="votos-img">
+             <img src="img/8.jpg" alt="Blanco">
+            </div>
+        </div>
+        <div class="ideales">
+             <h2>Voto a la Biblia</h2>
+            <div class="votos-img">
+               <img src="img/9.jpg" alt="Blanco">
+            </div>
+        </div>
+     </div>
+</div>
+    
+
+    
+    <script>
+        hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function(){
+                navBar =document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            } 
+            const btnSwitch = document.querySelector('#switch');
+        btnSwitch.addEventListener('click',() => {
+            document.body.classList.toggle('dark');
+            btnSwitch.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

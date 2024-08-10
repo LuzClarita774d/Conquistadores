@@ -1,2 +1,2 @@
-# Conquistadores
-proyecto personal 
+# Arte-de-Acampar
+Para el club de Conquistadores
