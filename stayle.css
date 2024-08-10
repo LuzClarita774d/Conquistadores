@@ -121,11 +121,7 @@ header {
         margin-bottom: 12px;
         color: rgb(9, 9, 9);
     }
-    @media only screen and (max-width: 1320px) {
-        .container {
-        padding: 0 50px;
-        }
-    } 
+    
 }
 .title{
     text-align:center ;
@@ -162,7 +158,7 @@ header {
     font-size: 18px;
   }
   
-  .container {
+  .container {/*aqui es lo de las card de ideales*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,4 +202,4 @@ header {
     .ideales {
         width: 30%;
     }
-}
+}/*aqui termina con su responsivo*/

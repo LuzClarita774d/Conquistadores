@@ -121,49 +121,7 @@ header {
         margin-bottom: 12px;
         color: rgb(9, 9, 9);
     }
-    @media only screen and (max-width: 1320px) {
-        .speciality-item {
-        padding: 0 50pxc;
-        }
-    } 
-    @media only screen and (max-width: 767px) {
-        .speciality-item {
-            font-size: 16px;
-        }
-
-        .speciality-image {
-            max-width: 200px;
-        }
-    }
-}
-
-
-  .welcome {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px;
-    background-color: #f4f4f4;
-}
-
-.welcome-text {
-    max-width: 70%;
-}
-
-.welcome-text h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.welcome-text p {
-    font-size: 18px;
-    text-align: justify;
-}
-
-.welcome-image img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
+    
 }
 
 /* Speciality section styles */
@@ -174,27 +132,13 @@ header {
 .speciality-intro{
     margin-left: 20px;
     font-size: 17px;
-}
-.speciality-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    color: black;
 }
 
 .speciality-text {
-    max-width: 80%;
-}
-
-.speciality-text h2 {
-    font-size: 28px;
+    
     margin-bottom: 10px;
-    margin-left: 20px;
-}
-
-.speciality-text p {
-    font-size: 16px;
- margin-left: 20px;
+   
 }
 
 .speciality-image img {
@@ -202,5 +146,42 @@ header {
     height: auto;
     margin-left: 20px;
     border-radius: 10px;
+}
+ /* Estilos para pantallas pequeñas (celulares) */
+ @media only screen and (max-width: 600px) {
+    .speciality-intro h1 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .speciality-item h2 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    .speciality-item img {
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+
+    .speciality-item p {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media only screen and (min-width: 600px) {
+    .speciality-intro h1 {
+        font-size: 2em;
+    }
+
+    .speciality-item h2 {
+        font-size: 1.5em;
+    }
+
+    .speciality-item p {
+        font-size: 1.1em;
+    }
 }
 
